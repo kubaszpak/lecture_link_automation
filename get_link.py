@@ -96,23 +96,3 @@ if __name__ == "__main__":
     driver = WebDriver()
     driver.get_activities_with_days()
     del driver
-
-# i=0
-# for activity in activities:
-#     print('Element')
-# # try:
-#     driver.execute_script("window.scrollTo(0, window.scrollY + 100)")
-#     driver.implicitly_wait(3) 
-#     # actions.click(activity).perform()
-#     activity.click()
-
-#     data = activities_data[i].find_elements_by_xpath("./child::*")
-#     driver.implicitly_wait(3) 
-#     for d in data:
-#         print(d)
-#         print(d.text)
-# # except Exception as e:
-# #     pass
-        # activities = driver.find_elements_by_xpath(
-#     "//div[contains(@class,'wyzwalacz')]")
-# actions = ActionChains(driver)
